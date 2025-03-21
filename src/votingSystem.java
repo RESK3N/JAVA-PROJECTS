@@ -6,7 +6,7 @@ public class votingSystem {
         Map<String, Integer> votes = new HashMap<>();
 
         System.out.println("Enter number of candidates:");
-        int n = sc.nextInt(); sc.nextLine();
+        int n = sc.nextInt(); sc.nextLine() ;
 
         System.out.println("Enter candidate names:");
         for (int i = 0; i < n; i++) votes.put(sc.nextLine(), 0);
