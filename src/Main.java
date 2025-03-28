@@ -1,4 +1,4 @@
-// String, StringBuffer, StringBuilder, Scanner, BufferedReader
+//// String, StringBuffer, StringBuilder, Scanner, BufferedReader
 import java.io.*;
 import java.lang.*;
 import java.util.Scanner;
@@ -82,3 +82,30 @@ class Main
         }
     }
 }
+// Generic Class Java program with multiple arguments
+//class MCA<S, M>
+//{
+//    S sub_code;      // Subject code object
+//    M sub_marks;  // Subject Marks object
+//
+//    MCA(S sub_code, M sub_marks)
+//    {
+//        this.sub_code = sub_code;
+//        this.sub_marks = sub_marks;
+//    }
+//
+//    public void print()
+//    {
+//        System.out.println(sub_code);
+//        System.out.println(sub_marks);
+//    }
+//}
+//
+//class Main {
+//    public static void main(String[] args) {
+//        MCA<String, Integer> obj =
+//                new MCA<String, Integer>("CSE21949", 35);
+//
+//        obj.print();
+//    }
+//}

@@ -5,6 +5,7 @@ class Parents
         System.out.println("Two Parents");
     }
 }
+
 interface Mother
 {
     public void show();
