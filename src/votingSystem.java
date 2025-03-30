@@ -23,5 +23,5 @@ public class votingSystem {
         System.out.println("Voting Results:");
         votes.forEach((k, v) -> System.out.println(k + ": " + v + " votes"));
         sc.close();
-    }
+    }   
 }

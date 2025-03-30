@@ -25,7 +25,7 @@ class MCA {
 
 // Generic Programming using Generic Method
 
-////class Student {
+//class Student {
 ////    static <P> void show(P mca) {
 ////        System.out.println(mca.getClass().getName()
 ////                + " = " + mca);
