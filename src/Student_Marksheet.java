@@ -11,18 +11,19 @@ class student
         Scanner sc = new Scanner (System.in);
         System.out.println ("\n Enter roll: ");
         roll=sc.nextInt();
-
         System.out.println ("\n Enter student name: ");
         //String s= stringScanner.next();
-        sc.next();
+        sc.nextLine();
         String s=  sc.nextLine();
-        System.out.println ("\n Enter sub1 : ");
+        System.out.println ("\n Enter sub1 marks : ");
         sub1=sc.nextFloat();
-        System.out.println ("\n Enter sub2: ");
+        System.out.println ("\n Enter sub2 marks: ");
         sub2=sc.nextFloat();
-        System.out.println ("\n Enter sub3: ");
+        System.out.println ("\n Enter sub3 marks: ");
         sub3=sc.nextFloat();
 
+
+        System.out.println ("\nName: "+s);
         System.out.println ("Roll =" + roll);
         System.out.println ("Sub1 =" + sub1);
         System.out.println ("Sub2 =" + sub2);
