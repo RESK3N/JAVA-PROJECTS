@@ -1,5 +1,5 @@
 // Multi Level Inheritance
-import java.lang.*;
+
 
 class grandbase
 {
