@@ -24,26 +24,22 @@ class student
 
 
         System.out.println ("\nName: "+s);
-        System.out.println ("Roll =" + roll);
-        System.out.println ("Sub1 =" + sub1);
-        System.out.println ("Sub2 =" + sub2);
-        System.out.println ("Sub3 =" + sub3);
+        System.out.println ("Roll : " + roll);
+        System.out.println ("Sub1 marks : " + sub1);
+        System.out.println ("Sub2 marks : " + sub2);
+        System.out.println ("Sub3 marks : " + sub3);
         total = sub1+sub2+sub3;
         avg = (sub1+sub2+sub3)/3;
-        System.out.println ("Total =" + total);
-        System.out.println ("Average =" + avg);
+        System.out.println ("Total :" + total);
+        System.out.println ("Average :" + avg);
     }
 
-    student(int r, int s1, int s2, int s3)
-    { roll =r; sub1 = s1; sub2 = s2; sub3 = s3;  }
+    /*student(int r, int s1, int s2, int s3)
+    { roll =r; sub1 = s1; sub2 = s2; sub3 = s3;  }*/
 }
 class Student_Marksheet{
     public static void main(String[] args) {
-        // single object
-        //student s1 = new student();
-        // array of objects
         student [] s = new student[2];
         s[0] = new student();
-        s[1] = new student();
     }
 }
