@@ -8,20 +8,20 @@ class student
 
     student()
     {   roll=0; sub1=0; sub2=0; sub3=0; total = 0; avg=0;
-        Scanner in = new Scanner (System.in);
+        Scanner sc = new Scanner (System.in);
         System.out.println ("\n Enter roll: ");
-        roll=in.nextInt();
+        roll=sc.nextInt();
 
         System.out.println ("\n Enter student name: ");
         //String s= stringScanner.next();
-        in.next();
-        String s=  in.nextLine();
-        System.out.println ("\n Enter sub1: ");
-        sub1=in.nextFloat();
+        sc.next();
+        String s=  sc.nextLine();
+        System.out.println ("\n Enter sub1 : ");
+        sub1=sc.nextFloat();
         System.out.println ("\n Enter sub2: ");
-        sub2=in.nextFloat();
+        sub2=sc.nextFloat();
         System.out.println ("\n Enter sub3: ");
-        sub3=in.nextFloat();
+        sub3=sc.nextFloat();
 
         System.out.println ("Roll =" + roll);
         System.out.println ("Sub1 =" + sub1);
