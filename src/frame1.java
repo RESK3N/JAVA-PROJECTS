@@ -5,6 +5,7 @@ class abc extends JFrame{
         setVisible(true);
         setSize(400,400);
         JLabel l1 = new JLabel("Hello World !! ");
+        add(l1);
     }
 }
 
