@@ -81,8 +81,21 @@ public class database {
                         else if (rows==0) System.out.println("Not Found ! Deletion failed");
                     }
                 break;
-                case 5:
-
+                case 5:System.out.println("Enter ID to Update product (0 to skip):");
+                int up=sc.nextInt();
+                if(up!=0){
+                    System.out.println("Enter new Product Name :");
+                    prname=sc.next();
+                    System.out.println("Enter new Product Price :");
+                    prprice=sc.nextFloat();
+                    PreparedStatement ups = conn.prepareStatement("update products set name=?,price=? where id=?");
+                    ups.setString(1,prname);
+                    ups.setFloat(2,prprice);
+                    ups.setInt(3,up);
+                    int updates = ups.executeUpdate();
+                    System.out.println("Successfully inserted \n"+updates+" row(s) affected.");
+                }
+                break;
             }
         }
         }catch(Exception e){
